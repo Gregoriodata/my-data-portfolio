@@ -3,7 +3,7 @@ const App = () => (
     <TooltipProvider>
       <Toaster />
       <Sonner />
-      {/* Adicione o basename abaixo conforme o nome do seu repositório */}
+      {/* Adicione o basedname abaixo conforme o nome do seu repositório */}
       <BrowserRouter basename="/my-data-portfolio">
         <Routes>
           <Route path="/" element={<Index />} />
